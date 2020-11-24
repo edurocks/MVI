@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/home_activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.HomeActivity">
+
+    <include layout="@layout/content_main"/>
+
+    <com.joaquimley.heetch.heetchest.ui.views.DriverInfoView
+            android:id="@+id/closest_driver_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_margin="22dp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/white"
+            app:buttonGravity="bottom|top"
+            app:fabAlignmentMode="center"
+            app:fabCradleRoundedCornerRadius="80dp"
+            app:navigationIcon="@drawable/ic_menu"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location"
+            android:tooltipText="@string/action_center_camera"
+            app:backgroundTint="@color/white"
+            app:fabSize="auto"
+            app:layout_anchor="@id/bottom_bar"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

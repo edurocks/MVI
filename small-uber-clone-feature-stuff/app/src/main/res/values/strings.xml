@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Heetch Test</string>
+
+    <string name="accessibility_driver_picture">Driver picture</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_center_camera">Center Camera</string>
+
+    <string name="closest_driver">Closest driver</string>
+    <string name="location_permission_granted">Location permission granted</string>
+
+    <string name="request_location_permission_title">Location permission</string>
+    <string name="request_location_permission_description">In order to request your Heetch, we need access to your location to better match you with a driver.</string>
+    <string name="request_location_confirm_button_text">I understand</string>
+    <string name="request_location_required_description">Heetch doesn\'t work without your location.</string>
+    <string name="request_location_action_request">OK</string>
+</resources>

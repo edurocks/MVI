@@ -1,0 +1,4 @@
+<resources>
+    <!-- In a 'real' application this key would never be committed into VCS -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyBGGRZVmYgN-JhI-6sD06sRzyetfqFF2GY</string>
+</resources>
